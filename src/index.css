@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fog: #e8ecef;
+  --color-ink: #0f1b2d;
+  --color-cobalt: #2a4bff;
+  --color-asphalt: #1a2330;
+  --font-display: "Unbounded", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--color-fog);
+  font-family: var(--font-body);
+}
